@@ -1,0 +1,39 @@
+:root {
+  /* Background system — white-based */
+  --color-bg: #ffffff;
+  --color-bg-tinted: #f2f5fb;
+  --color-bg-dark: #03045e;        /* Deep Twilight — inverted sections */
+  --color-bg-dark-mid: #2f3061;    /* Twilight Indigo — footer */
+
+  /* Text */
+  --color-fg: #03045e;             /* Deep Twilight — primary text on white */
+  --color-muted: #2f3061;          /* Twilight Indigo — secondary text on white (good contrast) */
+
+  /* Accent */
+  --color-accent: #0e34a0;         /* Egyptian Blue — CTAs */
+  --color-accent-hover: #0a2880;
+  --color-accent-soft: #778ac0;    /* Glaucous — decorative only, not body text */
+
+  /* Borders */
+  --color-border: rgba(47, 48, 97, 0.18);
+  --color-border-strong: rgba(47, 48, 97, 0.38);
+
+  /* Form glow (blue on white reads as soft blue shadow) */
+  --color-form-glow: rgba(14, 52, 160, 0.10);
+
+  /* Fonts */
+  --font-display: var(--font-display-face), "Arial Narrow", sans-serif;
+  --font-body: var(--font-body-face), "Helvetica Neue", sans-serif;
+
+  /* Layout */
+  --max-width: 720px;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 3.5rem;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --banner-height: 140px;
+  --header-height: 53px;
+}
