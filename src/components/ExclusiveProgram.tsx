@@ -22,8 +22,8 @@ export function ExclusiveProgram() {
           <Image
             src={founder.secondary}
             alt=""
-            width={260}
-            height={360}
+            fill
+            sizes="260px"
             loading="lazy"
           />
         </div>

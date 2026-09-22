@@ -783,18 +783,23 @@ input {
 }
 
 .exclusive__founder {
+  position: relative;
   margin: 1.25rem auto;
   width: min(260px, 72%);
+  aspect-ratio: 9 / 16;
   border: 1px solid rgba(255, 255, 255, 0.28);
   overflow: hidden;
+  background: transparent;
 }
 
 .exclusive__founder img {
+  position: absolute;
+  inset: 0;
   width: 100%;
-  height: auto;
-  display: block;
+  height: 100%;
   object-fit: cover;
   object-position: center;
+  display: block;
 }
 
 /* ─── Manifesto ─────────────────────────────────────────────────── */
